@@ -1,1 +1,2 @@
-HTML Attribute = modefied how an element behaves
+001- HTML Attribute = modefied how an element behaves
+002- Extra spaces are ignored (in HTML).
