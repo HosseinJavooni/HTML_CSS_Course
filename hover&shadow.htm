@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title>hover & shadow</title>
+</head>
+<body>
+    <style>
+        #change {
+            border: none;
+            border-radius: 3px;
+            width: 130px;
+            height: 38px;
+            background-color: rgb(187, 21, 21);
+            font-size: 17px;
+            color: white;
+            transition: opacity 0.15s;
+        }
+        #change:hover {
+            opacity: 0.2;
+        }
+        #change:active {
+            opacity: 0.8;
+        }
+        
+        .change2 {
+            border-width: 1px;
+            border-color: rgb(38, 71, 255);
+            border-radius: 3px;
+            width: 80px;
+            height: 38px;
+            background-color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+            color: rgb(38, 71, 255);
+            margin-left: 10px;
+            transition: background-color 1s;
+            transition: color 0.15s;
+        }
+        .change2:hover{
+            background-color: rgb(38, 71, 255);
+            color: white;
+        }
+        .change2:active {
+            opacity: 0.7;
+        }
+        #tweet {
+            border: none;
+            background-color: rgb(44, 128, 253);
+            border-radius: 18px;
+            width: 80px;
+            height: 38px;
+            font-size: 17px;
+            font-weight: bold;
+            color: white;
+            margin-left: 10px;
+            transition: box-shadow 0.15s
+        }
+        #tweet:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <button id="change">SUBSCRIBE</button>
+    <button class="change2">JOIN</button>
+    <button id="tweet">Tweet</button>
+</body>
